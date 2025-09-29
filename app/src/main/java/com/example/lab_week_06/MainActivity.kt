@@ -36,80 +36,82 @@ class MainActivity : AppCompatActivity() {
         itemTouchHelper.attachToRecyclerView(recyclerView)
 
         // Tambahkan data ke adapter
-        catAdapter.setData(
-            listOf(
-                CatModel(
-                    Gender.Male,
-                    CatBreed.BalineseJavanese,
-                    "Fred",
-                    "Silent and deadly",
-                    "https://cdn2.thecatapi.com/images/7dj.jpg"
-                ),
-                CatModel(
-                    Gender.Female,
-                    CatBreed.ExoticShorthair,
-                    "Wilma",
-                    "Cuddly assassin",
-                    "https://cdn2.thecatapi.com/images/egv.jpg"
-                ),
-                CatModel(
-                    Gender.Unknown,
-                    CatBreed.AmericanCurl,
-                    "Curious George",
-                    "Award winning investigator",
-                    "https://cdn2.thecatapi.com/images/bar.jpg"
-                ),
-                CatModel(
-                    Gender.Female,
-                    CatBreed.BalineseJavanese,
-                    "Luna",
-                    "Playful and curious",
-                    "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
-                ),
-                CatModel(
-                    Gender.Male,
-                    CatBreed.ExoticShorthair,
-                    "Simba",
-                    "Brave little king",
-                    "https://cdn2.thecatapi.com/images/MTY3ODIyNQ.jpg"
-                ),
-                CatModel(
-                    Gender.Unknown,
-                    CatBreed.AmericanCurl,
-                    "Shadow",
-                    "Loves to hide",
-                    "https://cdn2.thecatapi.com/images/MTY3ODIyMg.jpg"
-                ),
-                CatModel(
-                    Gender.Female,
-                    CatBreed.ExoticShorthair,
-                    "Misty",
-                    "Soft and cuddly",
-                    "https://cdn2.thecatapi.com/images/MTY3ODIyNA.jpg"
-                ),
-                CatModel(
-                    Gender.Male,
-                    CatBreed.BalineseJavanese,
-                    "Leo",
-                    "Loves to climb trees",
-                    "https://cdn2.thecatapi.com/images/2oo.jpg"
-                ),
-                CatModel(
-                    Gender.Unknown,
-                    CatBreed.AmericanCurl,
-                    "Snowy",
-                    "White as snow",
-                    "https://cdn2.thecatapi.com/images/MTY3ODIyNg.jpg"
-                ),
-                CatModel(
-                    Gender.Female,
-                    CatBreed.ExoticShorthair,
-                    "Nala",
-                    "Queen of the house",
-                    "https://cdn2.thecatapi.com/images/9oo.jpg"
+            catAdapter.setData(
+                listOf(
+                    CatModel(
+                        Gender.Male,
+                        CatBreed.BalineseJavanese,
+                        "Fred",
+                        "Silent and deadly",
+                        "https://cdn2.thecatapi.com/images/7dj.jpg"
+                    ),
+                    CatModel(
+                        Gender.Female,
+                        CatBreed.ExoticShorthair,
+                        "Wilma",
+                        "Cuddly assassin",
+                        "https://cdn2.thecatapi.com/images/egv.jpg"
+                    ),
+                    CatModel(
+                        Gender.Unknown,
+                        CatBreed.AmericanCurl,
+                        "Curious George",
+                        "Award winning investigator",
+                        "https://cdn2.thecatapi.com/images/bar.jpg"
+                    ),
+                    CatModel(
+                        Gender.Female,
+                        CatBreed.BalineseJavanese,
+                        "Luna",
+                        "Playful and curious",
+                        "https://cdn2.thecatapi.com/images/bpc.jpg"
+                    ),
+                    CatModel(
+                        Gender.Male,
+                        CatBreed.ExoticShorthair,
+                        "Simba",
+                        "Brave little king",
+                        "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+                    ),
+                    CatModel(
+                        Gender.Unknown,
+                        CatBreed.AmericanCurl,
+                        "Shadow",
+                        "Loves to hide",
+                        "https://cdn2.thecatapi.com/images/9oo.jpg"
+                    ),
+                    CatModel(
+                        Gender.Female,
+                        CatBreed.ExoticShorthair,
+                        "Misty",
+                        "Soft and cuddly",
+                        "https://cdn2.thecatapi.com/images/6qi.jpg"
+                    ),
+                    CatModel(
+                        Gender.Male,
+                        CatBreed.BalineseJavanese,
+                        "Leo",
+                        "Loves to climb trees",
+                        "https://cdn2.thecatapi.com/images/8q3.jpg"
+                    ),
+                    CatModel(
+                        Gender.Unknown,
+                        CatBreed.AmericanCurl,
+                        "Snowy",
+                        "White as snow",
+                        "https://cdn2.thecatapi.com/images/c9f.jpg"
+                    ),
+                    CatModel(
+                        Gender.Female,
+                        CatBreed.ExoticShorthair,
+                        "Nala",
+                        "Queen of the house",
+                        "https://cdn2.thecatapi.com/images/8f8.jpg"
+                    )
                 )
             )
-        )
+
+
 
     }
 
